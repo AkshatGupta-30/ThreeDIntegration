@@ -66,10 +66,14 @@ yarn-error.log
 # testing
 /coverage
 
-# Yarn
-.yarn/*
-!.yarn/patches
-!.yarn/plugins
-!.yarn/releases
-!.yarn/sdks
-!.yarn/versions
+# lock
+ios/Podfile.lock
+yarn.lock
+Gemfile.lock
+package-lock.json
+
+# My Ignores
+debug.keystore
+.bundle
+.vscode
+.env
